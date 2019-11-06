@@ -9,6 +9,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-		//adsadsadsadasdassdadasdas
+		//adsadsadsadasdassdadasdas敖德萨大多所
+		//adsadsadsadasdassdadasdas敖德萨大多所//adsadsadsadasdassdadasdas敖德萨大多所//adsadsadsadasdassdadasdas敖德萨大多所
+		//adsadsadsadasdassdadasdas敖德萨大多所
+		//adsadsadsadasdassdadasdas敖德萨大多所
+		//adsadsadsadasdassdadasdas敖德萨大多所//adsadsadsadasdassdadasdas敖德萨大多所//adsadsadsadasdassdadasdas敖德萨大多所
 	}
 }
