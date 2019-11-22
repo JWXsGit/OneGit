@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.jcodecraeer:xrecyclerview:1.2.6@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c481346734cf69993dafabcaa0ccba19/jetified-xrecyclerview-1.2.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c481346734cf69993dafabcaa0ccba19/jetified-xrecyclerview-1.2.6/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jcodecraeer/xrecyclerview/1.2.6/5d5839ad486409e45cc1371ad92a2caef997a7d/xrecyclerview-1.2.6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jcodecraeer/xrecyclerview/1.2.6/dcbd9230408fc0d103c09e048e37b6a576e40b42/xrecyclerview-1.2.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,147 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bw.movie"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->D:\MyApp\APP\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\MyApp\APP\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:5:5-81
+11-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:6:5-80
+12-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:6:22-77
+13    <!-- 微信权限 -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:8:5-67
+14-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:9:5-76
+15-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:9:22-73
+16    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+16-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:10:5-75
+16-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:10:22-72
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:11:5-79
+17-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:11:22-76
+18
+19    <application
+19-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:13:5-53:19
+20        android:name="com.bw.movie.APP"
+20-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:14:9-28
+21        android:allowBackup="true"
+21-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:15:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.1.0] C:\Users\24673\.gradle\caches\transforms-2\files-2.1\c527b78844be871c44103f6f45a963fb\core-1.1.0\AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/icon"
+24-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:16:9-36
+25        android:label="@string/app_name"
+25-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:17:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:18:9-54
+27        android:supportsRtl="true"
+27-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:19:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Theme.AppCompat.NoActionBar" >
+29-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:20:9-59
+30        <activity android:name="com.bw.movie.view.SeatInfoActivity" />
+30-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:21:9-68
+30-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:21:19-56
+31        <activity android:name="com.bw.movie.view.DateListActivity" />
+31-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:22:9-59
+31-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:22:19-56
+32        <activity android:name="com.bw.movie.view.ChooseActivity" />
+32-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:23:9-57
+32-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:23:19-54
+33        <activity android:name="com.bw.movie.view.DetailActivity" />
+33-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:24:9-57
+33-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:24:19-54
+34        <activity android:name="com.bw.movie.view.CinameInfoActivity" />
+34-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:25:9-61
+34-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:25:19-58
+35        <activity android:name="com.bw.movie.view.SearchActivity" />
+35-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:26:9-57
+35-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:26:19-54
+36        <activity android:name="com.bw.movie.view.my_activity.UpdateActivity" />
+36-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:27:9-69
+36-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:27:19-66
+37        <activity android:name="com.bw.movie.view.my_activity.SettingsActivity" />
+37-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:28:9-71
+37-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:28:19-68
+38        <activity android:name="com.bw.movie.view.RegisterActivity" />
+38-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:29:9-59
+38-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:29:19-56
+39        <activity android:name="com.bw.movie.view.HomeActivity" />
+39-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:30:9-55
+39-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:30:19-52
+40        <activity android:name="com.bw.movie.view.MainActivity" >
+40-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:31:9-37:20
+40-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:31:19-52
+41            <intent-filter>
+41-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:32:13-36:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:33:17-69
+42-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:33:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:35:17-77
+44-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:35:27-74
+45            </intent-filter>
+46        </activity> <!-- 屏幕适配 -->
+47        <meta-data
+47-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:38:9-40:35
+48            android:name="design_width_in_dp"
+48-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:39:13-46
+49            android:value="360" />
+49-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:40:13-32
+50        <meta-data
+50-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:41:9-43:35
+51            android:name="design_height_in_dp"
+51-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:42:13-47
+52            android:value="640" />
+52-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:43:13-32
+53
+54        <!-- 微信接入 -->
+55        <activity
+55-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:46:9-52:84
+56            android:name="com.bw.movie.wxapi.WXEntryActivity"
+56-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:47:13-50
+57            android:exported="true"
+57-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:48:13-36
+58            android:label="@string/app_name"
+58-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:49:13-45
+59            android:launchMode="singleTask"
+59-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:50:13-44
+60            android:taskAffinity="net.sourceforge.simcpux"
+60-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:51:13-59
+61            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+61-->D:\MyApp\APP\app\src\main\AndroidManifest.xml:52:13-72
+62
+63        <provider
+63-->[me.jessyan:autosize:1.1.2] C:\Users\24673\.gradle\caches\transforms-2\files-2.1\f6bf3093d007be64dcc639db4babe140\jetified-autosize-1.1.2\AndroidManifest.xml:12:9-16:43
+64            android:name="me.jessyan.autosize.InitProvider"
+64-->[me.jessyan:autosize:1.1.2] C:\Users\24673\.gradle\caches\transforms-2\files-2.1\f6bf3093d007be64dcc639db4babe140\jetified-autosize-1.1.2\AndroidManifest.xml:13:13-60
+65            android:authorities="com.bw.movie.autosize-init-provider"
+65-->[me.jessyan:autosize:1.1.2] C:\Users\24673\.gradle\caches\transforms-2\files-2.1\f6bf3093d007be64dcc639db4babe140\jetified-autosize-1.1.2\AndroidManifest.xml:14:13-74
+66            android:exported="false"
+66-->[me.jessyan:autosize:1.1.2] C:\Users\24673\.gradle\caches\transforms-2\files-2.1\f6bf3093d007be64dcc639db4babe140\jetified-autosize-1.1.2\AndroidManifest.xml:15:13-37
+67            android:multiprocess="true" />
+67-->[me.jessyan:autosize:1.1.2] C:\Users\24673\.gradle\caches\transforms-2\files-2.1\f6bf3093d007be64dcc639db4babe140\jetified-autosize-1.1.2\AndroidManifest.xml:16:13-40
+68
+69        <activity
+69-->[fm.jiecao:jiecaovideoplayer:2.0] C:\Users\24673\.gradle\caches\transforms-2\files-2.1\5a7792f43ea1e411b675028757a62828\jiecaovideoplayer-2.0\AndroidManifest.xml:15:9-18:53
+70            android:name="fm.jiecao.jcvideoplayer_lib.JCFullScreenActivity"
+70-->[fm.jiecao:jiecaovideoplayer:2.0] C:\Users\24673\.gradle\caches\transforms-2\files-2.1\5a7792f43ea1e411b675028757a62828\jiecaovideoplayer-2.0\AndroidManifest.xml:16:13-76
+71            android:configChanges="orientation|keyboardHidden"
+71-->[fm.jiecao:jiecaovideoplayer:2.0] C:\Users\24673\.gradle\caches\transforms-2\files-2.1\5a7792f43ea1e411b675028757a62828\jiecaovideoplayer-2.0\AndroidManifest.xml:17:13-63
+72            android:screenOrientation="landscape" />
+72-->[fm.jiecao:jiecaovideoplayer:2.0] C:\Users\24673\.gradle\caches\transforms-2\files-2.1\5a7792f43ea1e411b675028757a62828\jiecaovideoplayer-2.0\AndroidManifest.xml:18:13-50
+73    </application>
+74
+75</manifest>
