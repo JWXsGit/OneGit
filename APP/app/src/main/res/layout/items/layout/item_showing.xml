@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/showing_image"
+            android:layout_width="100dp"
+            android:layout_height="130dp" />
+
+        <TextView
+            android:id="@+id/showing_text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="电影名称"
+            android:textColor="#FFF"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/showing_button"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/button_corners"
+            android:text="购票"
+            android:textColor="#FFF"
+            android:textSize="20dp" />
+    </LinearLayout>
+</LinearLayout>

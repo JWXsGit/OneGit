@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/ticket_src"
+        android:layout_width="95dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/ticket_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/ticket_src"
+        android:text="name"
+        android:textColor="#fff"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/orid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_toRightOf="@id/ticket_src"
+        android:text="订    单    号"
+        android:textColor="#fff"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/ticket_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="60dp"
+        android:layout_toRightOf="@id/orid"
+        android:text="订单号"
+        android:textColor="#fff"
+        android:textSize="12dp" />
+
+
+    <TextView
+        android:id="@+id/orid2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_toRightOf="@id/ticket_src"
+        android:text="创建时间"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/ticket_tv_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_toRightOf="@id/orid2"
+        android:text="创建时间"
+        android:textColor="#fff" />
+
+    <Button
+        android:layout_width="72dp"
+        android:layout_height="28dp"
+        android:layout_below="@id/ticket_tv_delete"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:background="#e8185e"
+        android:text="立即付款"
+        android:textColor="#FFF" />
+</RelativeLayout>

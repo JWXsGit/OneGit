@@ -1,0 +1,2 @@
+include ':app', ':my_utils_library', ':activity', ':tablayout'
+rootProject.name='APP'

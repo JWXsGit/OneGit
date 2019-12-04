@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:layout_marginTop="10dp"
+        android:id="@+id/hot_image_two"
+        android:layout_width="96dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/hot_tv_score_two"
+        android:layout_width="wrap_content"
+        android:textColor="#FFF"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/hot_image_two"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/hot_tv_movieName_two"
+        android:layout_width="wrap_content"
+        android:textColor="#FFF"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hot_image_two"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="name"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/hot_bt_two"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/hot_tv_movieName_two"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_corners"
+        android:text="购票"
+        android:textColor="#FFF"
+        android:textSize="20dp" />
+</RelativeLayout>

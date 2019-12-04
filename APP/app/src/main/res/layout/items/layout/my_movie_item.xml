@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@mipmap/my_movie" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="17dp"
+        android:text="我的电影票"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="17dp"
+        android:layout_marginRight="30dp"
+        android:text="name"
+        android:textColor="#000" />
+
+    <ImageView
+        android:id="@+id/image_group"
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="52dp"
+        android:src="@mipmap/group" />
+
+    <TextView
+        android:id="@+id/text_zuo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="110dp"
+        android:text="座位"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_cinema"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="45dp"
+        android:text="name"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/text_screeningHall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="75dp"
+        android:text="name"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/text_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="100dp"
+        android:text="date"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/text_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="120dp"
+        android:text="date"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bt_reservation"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@id/text_time"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="25dp"
+        android:background="#e8185e"
+        android:text="查看取票码"
+        android:textColor="#FFF" />
+</RelativeLayout>

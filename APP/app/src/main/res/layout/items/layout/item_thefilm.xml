@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/guan_src"
+        android:layout_width="84dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/guan_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/guan_src"
+        android:text="lly"
+        android:textColor="#fff"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/guan_dao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/guan_name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/guan_src"
+        android:text="lly"
+        android:textColor="#fff"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/guan_zhu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/guan_dao"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/guan_src"
+        android:text="lly"
+        android:textColor="#fff"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/guan_pin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/guan_zhu"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/guan_src"
+        android:text="lly"
+        android:textColor="#fff"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/guan_tv_delete"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="17dp"
+        android:background="@drawable/button_bg_login"
+        android:gravity="center"
+        android:text="X"
+        android:textColor="#fff" />
+</RelativeLayout>
